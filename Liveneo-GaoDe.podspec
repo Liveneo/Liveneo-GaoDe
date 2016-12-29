@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Liveneo-GaoDe"
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   s.summary      = "Liveneo-GaoDe."
 
   # This description is used to generate tags and improve search results.
@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
 
-  s.source_files  =  "Liveneo-GaoDe/GaoDeSDK/*.{h,m}"
+  s.source_files  =  "GaoDeSDK/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
