@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Liveneo-GaoDe"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "Liveneo-GaoDe."
 
   # This description is used to generate tags and improve search results.
@@ -70,6 +70,12 @@ Pod::Spec.new do |s|
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
+
+
+
+
+
+
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
@@ -91,7 +97,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  =  "Liveneo-GaoDe/**/*.{h,m}"
+
+  s.source_files  =  "Liveneo-GaoDe/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -120,7 +127,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  #s.vendored_frameworks = "AMapFoundationKit.framework","AMapNaviKit.framework",""
+  s.vendored_frameworks = "AMapFoundationKit.framework","AMapNaviKit.framework","AMapSearchKit.framework"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
