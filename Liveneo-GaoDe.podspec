@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Liveneo-GaoDe"
-  s.version      = "0.0.10"
+  s.version      = "0.0.11"
   s.summary      = "Liveneo-GaoDe."
 
   # This description is used to generate tags and improve search results.
@@ -92,11 +92,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DriveNaviInfo.h","DriveNaviInfo.m"
+  #s.source_files  = "DriveNaviInfo.h","DriveNaviInfo.m"
   #s.source_files  = "Liveneo-GaoDe/*"
   #s.vendored_frameworks = "Liveneo-GaoDe/*.framework"
   #s.exclude_files = "Classes/Exclude"
-
+   s.vendored_frameworks    = "AMapFoundationKit.framework"
   # s.public_header_files = "Classes/**/*.h"
 
 
