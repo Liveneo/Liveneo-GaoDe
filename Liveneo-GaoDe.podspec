@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Liveneo-GaoDe"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "Liveneo-GaoDe."
 
   # This description is used to generate tags and improve search results.
@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
   #
 
 
-  s.source_files  =  "Liveneo-GaoDe/*"
+  s.source_files  =  "GaoDeSDK/*"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -126,7 +126,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-
+  s.frameworks = "CoreLocation", "QuartzCore", "OpenGLES", "SystemConfiguration", "CoreGraphics", "Security", "libsqlite3.0", "CoreTelephony"
   #s.vendored_frameworks = "AMapFoundationKit","AMapNaviKit.framework","AMapSearchKit.framework"
 
   # s.library   = "iconv"
