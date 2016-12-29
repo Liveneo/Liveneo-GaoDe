@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Liveneo-GaoDe"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Liveneo-GaoDe."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-高德导航基础sdk-自定义
+高德导航基础sdk-自定义Liveneo-GaoDe.Liveneo-GaoDe.
                    DESC
 
   s.homepage     = "https://github.com/gaoyang5/Liveneo-GaoDe"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
